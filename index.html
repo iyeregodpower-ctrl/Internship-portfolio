@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iyere | Front-End Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-logo">IYERE<span>.DEV</span></div>
+        
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="section-padding">
+            <div class="hero-content">
+                <span class="badge">Available for Internships</span>
+                <h1>Crafting High-Performance Digital Experiences</h1>
+                <p>I am a Junior Front-End Developer and Content Creator specializing in building clean, responsive, and interactive user interfaces from scratch.</p>
+                <div class="hero-actions">
+                    <a href="#experience" class="btn-premium">View My Work</a>
+                    <a href="#contact" class="btn-outline">Let's Connect</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-padding">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="accent-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Driven by design precision and clean code, I build digital assets that blend functionality with modern aesthetics. My focus centers on turning complex layouts into seamless, responsive web applications using vanilla technologies and modern frameworks.</p>
+                    <h3>Core Stack</h3>
+                    <ul class="skills-list">
+                        <li>HTML5 & CSS3 (Semantic & Grid/Flexbox)</li>
+                        <li>JavaScript (DOM Manipulation & ES6+)</li>
+                        <li>React & Next.js</li>
+                        <li>UI/UX Translation & Brand Asset Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section-padding">
+            <div class="section-header">
+                <h2>Experience & Projects</h2>
+                <div class="accent-line"></div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-card">
+                    <span class="timeline-date">Present</span>
+                    <h3>Front-End Developer Intern</h3>
+                    <p class="timeline-company">F-Bridge Africa</p>
+                    <p>Actively contributing to company builds, refining UI components, and managing development deliverables within a collaborative team environment.</p>
+                </div>
+
+                <div class="timeline-card">
+                    <span class="timeline-date">Established 2026</span>
+                    <h3>Founder & UI/UX Developer</h3>
+                    <p class="timeline-company">Geypey Web Studio</p>
+                    <p>Designing full visual identities, digital interfaces, and high-fidelity web solutions for clients, including target markets like luxury real estate personnel.</p>
+                </div>
+
+                <div class="timeline-card">
+                    <span class="timeline-date">Project Deployment</span>
+                    <h3>Ancient Knowledge Hub & Aura Luxe</h3>
+                    <p class="timeline-company">Personal & Showcase Platforms</p>
+                    <p>Developed custom multi-section sites utilizing clean semantic structures, responsive grid architectures, and custom JavaScript interactivity features like video-on-hover mechanics.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section-padding">
+            <div class="section-header">
+                <h2>Life & Community</h2>
+                <p class="section-subtitle">A glimpse of moments outside the code editor.</p>
+                <div class="accent-line"></div>
+            </div>
+            
+            <div class="gallery-grid">
+                <img src="assets/profile.png" alt="Iyere - Professional Profile" class="gallery-item">
+                <img src="assets/evadolee.jpg" alt="Evadolee - Colleague" class="gallery-item">
+                <img src="assets/kamsin.jpg" alt="Kamsin - Friend" class="gallery-item">
+                <img src="assets/marycolette.jpg" alt="Collaborative projects and friends" class="gallery-item">
+                <img src="assets/valerien.jpg" alt="Creative brainstorming and community" class="gallery-item">
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding">
+            <div class="contact-card">
+                <h2>Let's Build Something Exceptional</h2>
+                <p>Have an open opportunity, a project collaboration, or just want to chat about development? Drop a message.</p>
+                
+                <form id="contactForm" class="premium-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-premium">Send Message</button>
+                </form>
+                <div id="formFeedback" class="form-feedback hidden"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Iyere. Built from scratch with vanilla HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
